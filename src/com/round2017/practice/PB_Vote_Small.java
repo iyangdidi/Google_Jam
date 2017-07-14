@@ -61,8 +61,8 @@ public class PB_Vote_Small {
 	public void handler() throws IOException{
 		String path = PB_Vote_Small.class.getResource("").getPath();
 		path = path.substring(1, path.length());
-		Scanner sc = new Scanner(new BufferedReader(new FileReader(path+"B-small-practice.in")));
-		FileWriter out = new FileWriter(path+"B-small-practice.out");
+		Scanner sc = new Scanner(new BufferedReader(new FileReader(path+"io//B-small-practice.in")));
+		FileWriter out = new FileWriter(path+"io//B-small-practice.out");
 		
 		//read data
 		int T = sc.nextInt();
