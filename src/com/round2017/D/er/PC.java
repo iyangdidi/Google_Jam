@@ -1,15 +1,10 @@
-package com;
+package com.round2017.D.er;
 
 import java.io.*;
 import java.util.*;
 
-public class Tmp {
+public class PC {
 	public void handler() throws IOException{
-//		String path = Tmp.class.getResource("").getPath();
-//		path = path.substring(1, path.length());
-//		Scanner sc = new Scanner(new BufferedReader(new FileReader(path+"io//B-small-practice.in")));
-//		FileWriter out = new FileWriter(path+"io//B-small-practice.out");
-		
 		Scanner sc = new Scanner(new BufferedReader(new FileReader("D:\\e-workspace\\Google\\src\\com\\round2017\\A\\io\\A-small-practice.in")));
 		FileWriter out = new FileWriter("D:\\e-workspace\\Google\\src\\com\\round2017\\A\\io\\A-small-practice.out");
 		
@@ -24,7 +19,7 @@ public class Tmp {
 	}
 	
 	public static void main(String[] args) {
-		Tmp m = new Tmp();
+		PC m = new PC();
 		try {
 			m.handler();
 		}catch(IOException e) {
